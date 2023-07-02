@@ -36,10 +36,9 @@
                 windows                 = '00A8E8'
                 users                   = 'F4F4F4'
                 favorites               = 'F7D72C'
-                output                  = '00FF7F'
                 '.config'               = '87CEAF'
                 '.cache'                = '87ECAF'
-                '.vscode'               = '87CEFA'
+                '.vscode'               = '007ACC'
                 '.vscode-insiders'      = '24BFA5'
                 '.git'                  = 'FF4500'
                 '.github'               = 'C0C0C0'
@@ -97,6 +96,10 @@
                 'bitbucket-pipelines.yaml'      = '87CEFA'
                 '.azure-pipelines.yml'          = '00BFFF'
 
+                # Angular
+                'angular.json'                  = 'DD0031'
+                '.angular-config.json'          = 'DD0031'
+
                 # Firebase
                 'firebase.json'                 = 'FFA500'
                 '.firebaserc'                   = 'FFA500'
@@ -130,6 +133,9 @@
                 'gulpfile.js'                   = 'CD5C5C'
                 'gulpfile.ts'                   = 'CD5C5C'
                 'gulpfile.babel.js'             = 'CD5C5C'
+
+                #Karma
+                'karma.conf.js'                 = '42BEAE'
 
                 'gruntfile.js'                  = 'CD5C5C'
 
@@ -532,9 +538,6 @@
             '.tfvars'               = '948EEC'
             '.auto.tfvars'          = '948EEC'
 
-            # Bicep
-            '.bicep'                = '00BFFF'
-
             # Disk Image
             '.vmdk'                 = 'E1E3E6'
             '.vhd'                  = 'E1E3E6'
@@ -556,13 +559,6 @@
             # Puppet
             '.pp'                   = 'FFA61A'
             '.epp'                  = 'FFA61A'
-
-            # Scala
-            '.scala'                = 'DE3423'
-            '.sc'                   = 'DE3423'
-
-            # Autodesk Inventor
-            '.iLogicVb'             = 'A63B22'
         }
     }
 }

@@ -15,10 +15,11 @@ using namespace System.Collections.ObjectModel
     # Publish settings
     if ($galleryApiKey) {
         $PSBPreference.Publish.PSRepositoryApiKey = $galleryApiKey.GetNetworkCredential().password
+        $PSBPreference.Publish.PSRepository = 'Local'
     }
 }
 
-task default -depends Test
+task default -depends Test, Publish
 
 task Pester -FromModule PowerShellBuild -Version '0.6.1' -preaction {Remove-Module Terminal-Icons -ErrorAction SilentlyContinue}
 
